@@ -35,10 +35,5 @@ async def _(event):
         await event.reply("I can't find that")
 
 
-__help__ = """
-Sends you the gps location of the given query...
-
- ❍ /gps <location>*:* Get gps location.
-"""
 
 __mod_name__ = "Gᴘs"
