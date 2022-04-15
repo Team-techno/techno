@@ -7,12 +7,6 @@ from FallenRobot.pyrogramee.errors import capture_err
 
 __mod_name__ = "Gɪᴛʜᴜʙ"
 
-__help__ = """
-I will give information about github profile 
-
- ❍ /github <username>*:* Get information about a GitHub user.
-"""
-
 @pbot.on_message(filters.command('github'))
 @capture_err
 async def github(_, message):
