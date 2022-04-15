@@ -102,9 +102,6 @@ buttons = [
         InlineKeyboardButton(
             text="Support", url="https://t.me/Technobotsupport"
         ),
-        InlineKeyboardButton(
-            text="Music", url="soon"
-        ),
     ],
 ]
 
