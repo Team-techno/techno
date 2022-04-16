@@ -395,6 +395,7 @@ c stands for channel play.
                 [
                  [
                     InlineKeyboardButton(text="Back", callback_data="source_back")
+                    InlineKeyboardButton(text="Support group", url="https://t.me/Technobotsupport")
                  ]
                 ]
             ),
