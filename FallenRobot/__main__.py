@@ -75,12 +75,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hey\n i'm Techno Robot* ✨\n*The Most Powerful Group Management Bot of Telegram\n  I Have Awesome Features I have lots of handy features such as 
-✨ *Warning system*
-✨ *Artificial intelligence*
-✨ *Flood control system*
-✨ *Note keeping system*
-✨ *Filters keeping system*
-✨ *Approvals and much more. About my more commands click on commands button or  hit*​ /help
+✨ Warning system
+✨ Artificial intelligence
+✨ Flood control system
+✨ Note keeping system
+✨ Filters keeping system
+✨ Approvals and much more. About my more commands click on commands button or  hit*​ /help
 """
 
 buttons = [
