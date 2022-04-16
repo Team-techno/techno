@@ -381,7 +381,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""✅**<u>Admin Commands:</u>**
+            text="""✅**<u>Admin Commands:</u>**,
 
 **c** stands for channel play.
 
