@@ -74,38 +74,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hey\n i'm Techno Robot* [✨](https://telegra.ph/file/952a5a2ab46c419b86cc6.jpg)\n*The Most Powerful Group Management Bot of Telegram\n  I Have Awesome Features I have lots of handy features such as 
-✨ Warning system
-✨ Artificial intelligence
-✨ Flood control system
-✨ Note keeping system
-✨ Filters keeping system
-✨ Approvals and much more. About my more commands click on commands button or  hit*​ /help
+*Hey\n i'm Techno Robot* ✨\n*The Most Powerful Group Management Bot of Telegram\n  I Have Awesome Features I have lots of handy features such as 
+✨ *Warning system*
+✨ *Artificial intelligence*
+✨ *Flood control system*
+✨ *Note keeping system*
+✨ *Filters keeping system*
+✨ *Approvals and much more. About my more commands click on commands button or  hit*​ /help
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add me to your group", url="t.me/Techno_ro_bot?startgroup=true"),
+            text="*Add me to your group*", url="t.me/Techno_ro_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="Help&Commands", callback_data="help_back"),
+            text="*Help&Commands*", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="About", callback_data="fallen_"),
+            text="*About*", callback_data="fallen_"),
         InlineKeyboardButton(
-            text="Music", callback_data="source_"),
+            text="*Music*", callback_data="source_"),
     ],
     [
         InlineKeyboardButton(
-            text="Support", url="https://t.me/Technobotsupport"
+            text="*Support*", url="https://t.me/Technobotsupport"
         ),
     ],
 ]
 
-FallenRobot_IMG = "https://telegra.ph/file/93b08120e36d096cd21ca.jpg"
 
 HELP_STRINGS = """
  Techno Robot *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @Technobotsupport*\n\n*ㅤㅤㅤㅤㅤㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*\n\n*» ꜰᴏʀ ᴋɴᴏᴡɪɴɢ ᴀ ᴄᴏᴍᴍᴀɴᴅ ʟɪꜱᴛ ᴏꜰ Techno Robot ᴊᴜꜱᴛ ᴘʀᴇꜱꜱ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ ʀᴇᴀᴅ ᴄᴏᴍᴍᴀɴᴅꜱ ᴇxᴘʟᴀɴᴀᴛɪᴏɴ «* """
