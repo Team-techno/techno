@@ -388,14 +388,16 @@ c stands for channel play.
 /mute or /cmute- Mute the playing music.
 /unmute or /cunmute- Unmute the muted music.
 /skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.""",
+/stop or /cstop- Stop the playing music.
+*User commands*
+/play - give a song name or yt link.
+/song - give me a song name or yt link.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
                     InlineKeyboardButton(text="Back", callback_data="source_back")
-                    InlineKeyboardButton(text="Support group", url="https://t.me/Technobotsupport")
                  ]
                 ]
             ),
@@ -534,7 +536,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="◁",
+                                text="Back",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
