@@ -381,7 +381,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""hello""",
+            text="""✅Admin Commands:
+c stands for channel play.
+/pause or /cpause - Pause the playing music.
+/resume or /cresume- Resume the paused music.
+/mute or /cmute- Mute the playing music.
+/unmute or /cunmute- Unmute the muted music.
+/skip or /cskip- Skip the current playing music.
+/stop or /cstop- Stop the playing music.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
