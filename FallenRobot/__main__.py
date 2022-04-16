@@ -99,6 +99,8 @@ buttons = [
             text="Source Code", callback_data="source_"),
     ],
     [
+        InlinekeyboardButton(
+            text="music", callback_data="music_
         InlineKeyboardButton(
             text="Support", url="https://t.me/Technobotsupport"
         ),
@@ -709,7 +711,8 @@ def main():
     dispatcher.add_handler(settings_callback_handler)
     dispatcher.add_handler(migrate_handler)
     dispatcher.add_handler(donate_handler)
-
+    dispatcher.add_handler(music_handler)
+    
     dispatcher.add_error_handler(error_callback)
 
     if WEBHOOK:
