@@ -99,7 +99,7 @@ buttons = [
             text="Source Code", callback_data="source_"),
     ],
     [
-        InlinekeyboardButton(
+        InlineKeyboardButton(
             text="music", callback_data="music_"),
         InlineKeyboardButton(
             text="Support", url="https://t.me/Technobotsupport"
