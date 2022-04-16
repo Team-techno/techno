@@ -86,21 +86,21 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="*Add me to your group*", url="t.me/Techno_ro_bot?startgroup=true"),
+            text="Add me to your group", url="t.me/Techno_ro_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-            text="*Help&Commands*", callback_data="help_back"),
+            text="Help&Commands", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="*About*", callback_data="fallen_"),
+            text="About", callback_data="fallen_"),
         InlineKeyboardButton(
-            text="*Music*", callback_data="source_"),
+            text="Music", callback_data="source_"),
     ],
     [
         InlineKeyboardButton(
-            text="*Support*", url="https://t.me/Technobotsupport"
+            text="Support", url="https://t.me/Technobotsupport"
         ),
     ],
 ]
