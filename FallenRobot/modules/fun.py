@@ -225,5 +225,3 @@ bot send GM or GN image,
 __mod_name__ = "ғᴜɴs"
 
 
-#guys this it you like pegasusXteam ask join @pegasusSupportofficial
-# © pegasusXteam
