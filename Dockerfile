@@ -65,11 +65,11 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/FallenRobot
-RUN git clone -b shiken https://github.com/AnonymousBoy1025/FallenRobot /root/FallenRobot
-WORKDIR /root/FallenRobot
+RUN git clone -b shiken https://github.com/Team-techno/techno /root/techno
+WORKDIR /root/techno
 
 #Copy config file to /root/FallenRobot/FallenRobot
-COPY ./FallenRobot/sample_config.py ./FallenRobot/config.py* /root/FallenRobot/FallenRobot/
+COPY ./techno/sample_config.py ./FallenRobot/config.py* /root/FallenRobot/FallenRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
